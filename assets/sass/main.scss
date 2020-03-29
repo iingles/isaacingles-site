@@ -1383,6 +1383,14 @@ body > article {
   color: #1572b6;
 }
 
+.box .vuejs {
+  color: #41b883;
+}
+
+.box .lesscss {
+  color: #254b7b;
+}
+
 .box .javascript {
   color: #efd81d;
 }
@@ -1412,7 +1420,7 @@ body > article {
 
 input[type='reset'],
 input[type='submit'] {
-  box-shadow: none!important;
+  box-shadow: none !important;
   background-image: none;
   text-shadow: none;
 }

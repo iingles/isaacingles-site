@@ -2136,6 +2136,14 @@ button.large,
   color: #1572b6;
 }
 
+.box .vuejs {
+  color: #41b883;
+}
+
+.box .lesscss {
+  color: #254b7b;
+}
+
 .box .javascript {
   color: #efd81d;
 }
