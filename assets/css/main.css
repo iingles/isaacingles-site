@@ -2124,6 +2124,10 @@ button.large,
   box-shadow: none;
 }
 
+a.demo {
+  color: #252525;
+}
+
 .icon.featured {
   color: #cecece;
 }
