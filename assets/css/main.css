@@ -2182,4 +2182,16 @@ input[type=submit] {
   text-shadow: none;
 }
 
+.res-link {
+  text-decoration: none;
+}
+
+.res-link i {
+  margin-right: 1rem;
+  background-color: #fff;
+  color: red;
+  font-size: 1.8rem;
+  border-radius: 0.3rem;
+}
+
 /*# sourceMappingURL=main.css.map */
