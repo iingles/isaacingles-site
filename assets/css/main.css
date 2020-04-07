@@ -2140,6 +2140,10 @@ a.demo {
   color: #1572b6;
 }
 
+.box .bootstrap {
+  color: #563D7C;
+}
+
 .box .vuejs {
   color: #41b883;
 }
