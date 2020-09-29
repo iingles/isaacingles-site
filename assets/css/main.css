@@ -71,6 +71,12 @@ h4 {
   z-index: 1000;
   border-bottom: 1px solid #ccc;
 }
+.main-header .site-title {
+  color: #000;
+}
+.main-header .site-title:hover {
+  text-decoration: none;
+}
 @media screen and (min-width: 992px) {
   .main-header {
     padding: 1rem;
@@ -146,6 +152,7 @@ h4 {
 #main {
   padding: 5rem 0;
   background: #f1f1f1;
+  min-height: 100vh;
 }
 @media screen and (min-width: 992px) {
   #main {
