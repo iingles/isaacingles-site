@@ -233,8 +233,9 @@ h4 {
   border-radius: 2rem;
   border: 1px solid #ccc;
   margin-bottom: 3rem;
+  flex: 1;
 }
-.scrim-card img {
+.scrim-card .image img {
   width: 100%;
   border-radius: 2rem 2rem 0 0;
 }
@@ -245,10 +246,13 @@ h4 {
   align-items: center;
   padding: 2rem 1rem;
 }
+.scrim-card .card-desc .desc,
 .scrim-card .card-desc a {
-  text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
   color: #7a7a7a;
+}
+.scrim-card .card-desc a {
+  text-transform: uppercase;
 }
 .scrim-card .card-desc a i {
   font-size: 6.2rem;

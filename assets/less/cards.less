@@ -3,11 +3,17 @@
     border-radius: 2rem;
     border: 1px solid #ccc;
     margin-bottom: 3rem;
+    flex: 1;
     
-    img {
-        width: 100%;
-        border-radius: 2rem 2rem 0 0;
+    .image {
+
+        img {
+            width: 100%;
+            border-radius: 2rem 2rem 0 0;
+        }
     }
+
+    
 
     .card-desc {
         display: flex;
@@ -17,11 +23,15 @@
 
         padding: 2rem 1rem;
 
+        .desc, a  {
+            
+            font-family: @font2, sans-serif;
+            color: @medgray;
+        }
+
         a {
             text-transform: uppercase;
-            font-family: @font2, sans-serif;
 
-            color: @medgray;
             i {
                 font-size: 6.2rem;
             }
